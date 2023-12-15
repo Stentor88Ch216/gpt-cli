@@ -4,7 +4,6 @@ import * as readline from 'readline';
 import chalk from 'chalk';
 
 
-
 const openai = new OpenAI(); // Uses OPENAI_API_KEY from .zshrc
 const rl = readline.createInterface({
     input: process.stdin,
